@@ -13,3 +13,7 @@ So if there are 3 items in the array and index is -1, you'll get
 or if you reach past the end at index 3
 
 `(3 + 3) % 3 = 0` // back to start
+
+### Randomly select element in array
+
+let x = Math.floor(Math.random() * Array.length)
